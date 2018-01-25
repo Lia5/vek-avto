@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document</title>
+<link rel="stylesheet" href="css/main.css">
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+<div class="header container-fluid">
+    <div class="container">
+        <a href="#" class="nav-button"><span></span></a>
+        <div class="header__logo-wrapper col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="header__logo"><img src="img/logo.png" alt=""></div>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+          <div class="row">
+            <nav class="nav">
+              <ul>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#advantages">Почему мы</a></li>
+                <li><a href="#about">Отзывы</a></li>
+                <li><a href="#prices">Цены</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header__register register">
+          <a class="btn__hover" href="#">Онлайн запись</a>
+        </div>
+    </div>
+</div>
+<!-- ============ -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="fullscreen-bg" data-vide-bg="video/MP4/Fire-Snow.mp4">
+      <div class="overlay">
+        <p class="video__title"> Липецкая сеть автосервисов с историей
+          <br>
+          <span>Бесплатная диагностика </span>
+          <span class="timer">
+            <span id="days"></span>
+            <span class="delimiter">д </span>
+            <span id="hours"></span>
+            <span class="delimiter">ч </span>
+            <span id="minutes"></span>
+            <span class="delimiter">м </span>
+            <span id="seconds"></span>
+            <span class="delimiter">с </span>
+          </span>
+        </p>
+          <div id="popup3" class="popup popup__online">
+            <div class="form form__online" >
+              <div class="form__wrapper">
+                <form>
+                  <input type="text" name="Имя" placeholder="Введите ваше имя" required><br>
+                  <input type="text" name="Телефон/E-mail" placeholder="Номер телефона / Email" required><br>
+                  <button class="advantages__btn">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid free-diagnostic1">
+  <div class="row free-diagnostic ">
+    <div class="container">
+      <div class="free-diagnostic-wrapper col-lg-8 col-md-8">
+        <p>ВОСПОЛЬЗУЙТЕСЬ <img src="img/header-icon.png" alt="Логотип Век Авто">ПРИВИЛЕГИЕЙ: Бесплатная диагностика!</p>
+      </div>
+      <div class="get-free-diagnostic-wrapper col-lg-4 col-md-4">
+        <a href="#" class="get-free-diagnostic btn__hover">Получить бесплатную диагностику</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /====== -->
+<!-- services -->
+<div class="container services" id="services">
+  <div class="row">
+    <div class="content-title">
+      <p>Услуги автосервиса</p>
+    </div>
+  </div>
+  <div class="row service-items">
+    <div class="service-item service-item1 col-lg-4 col-md-3 col-sm-3">
+      <div class="service-item-overlay">
+        <a href="#">Шиномонтаж<br>
+          <i class="fi flaticon-tire-1 services-ico"></i>
+        </a>
+      </div>
+    </div>
+    <div class="service-item service-item2 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Замена масла<br>
+        <i class="fi flaticon-oil services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item3 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Эвакуатор<br>
+        <i class="fi flaticon-trailer services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item4 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Автомойка<br>
+        <i class="fi flaticon-car-wash services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item5 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Комп. <br>
+        диагностика<br>
+        <i class="fi flaticon-diagnostic services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item6 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Кузовные <br>
+        работы<br>
+        <i class="fi flaticon-painting services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item7 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Развал<br>
+        схождение<br>
+        <i class="fi flaticon-wheel-alignment services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item8 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Ремонт<br>
+        двигателя<br>
+        <i class="fi flaticon-engine services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item9 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Обслуживание<br>
+        кондиционеров<br>
+        <i class="fi flaticon-air-conditioning services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item10 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Обслуживание<br>
+        трансмиссии<br>
+        <i class="fi flaticon-gearstick services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item11 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Слесарные<br>
+        работы<br>
+        <i class="fi flaticon-suspension services-ico"></i>
+      </a>
+    </div>
+    <div class="service-item service-item12 col-lg-4 col-md-3 col-sm-3">
+      <a href="#">Ремонт<br>
+        двигателя<br>
+        <i class="fi flaticon-engine services-ico"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /services -->
+<!-- prices -->
+<div class="prices container-fluid" id="prices">
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="content-title">
+        <p>Стоимость услуг</p>
+      </div>
+    </div>
+    <div class="row">
+      <table>
+        <tr>
+          <th>Услуга</th>
+          <th>Время</th>
+          <th>Цена</th>
+        </tr>
+        <tr>
+          <td>Замена масла</td>
+          <td>от 1 часа</td>
+          <td>от 1000 руб.</td>
+        </tr>
+        <tr>
+          <td>Ремонт двигателя</td>
+          <td>от 2 часа</td>
+          <td>от 2000 руб.</td>
+        </tr>
+        <tr>
+          <td>Кузовные работы</td>
+          <td>от 3 часа</td>
+          <td>от 3000 руб.</td>
+        </tr>
+        <tr>
+          <td>Компьютерная диагностика</td>
+          <td>от 4 часа</td>
+          <td>от 4000 руб.</td>
+        </tr>
+      </table>
+    </div>
+    <div class="row">
+      <div class="items__btn">
+        <a class="item__btn btn__hover" href="#">Скачать полный прайс</a>
+        <a class="item__btn btn__hover" href="#contacts">Ближайший автосервис</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /prices -->
+<!-- advantages -->
+<div class="advantages container-fluid" id="advantages">
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="content-title">
+        <p>Наши преимущества</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="advantages-item">
+          <i class="advantages-ico wow animated flipInX fi2 flaticon-038-diamond" data-wow-delay="0.5s"></i>
+          <p>Гарантия качества на<br>
+          все работы</p>
+        </div>
+        <div class="advantages-item">
+          <i class="advantages-ico wow animated flipInX fi2 flaticon-003-goal" data-wow-delay="1.5s"></i>
+          <p>3500+ довольных<br>
+          клиентов</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="advantages-item">
+          <i class="advantages-ico wow animated flipInX fi2 flaticon-039-like" data-wow-delay="1s"></i>
+          <p>18 лет на рынке<br>
+          услуг</p>
+        </div>
+        <div class="advantages-item">
+          <i class="advantages-ico wow animated flipInX fi2 flaticon-013-time" data-wow-delay="2s"></i>
+          <p>Комфортная зона<br>
+          ожидания</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form" id="form3">
+        <div class="form__title">Хочу убедиться во всем лично</div>
+        <div class="form__wrapper">
+          <form>
+            <input type="text" name="Имя" placeholder="Введите ваше имя" required><br>
+            <input type="text" name="Телефон/E-mail" placeholder="Номер телефона / Email" required><br>
+            <button class="advantages__btn">Записаться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /advantages -->
+<!-- about -->
+<div class="container-fluid container-fluid_about parallax-window" data-parallax="scroll" data-image-src="img/about-bg.jpg" id="about">
+  <div class="row ">
+    <div class="about container">
+      <div class="row">
+        <div class="content-title">
+          <p>Отзывы о нас</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="about-item">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MiyvPRK2FE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="about-item">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MiyvPRK2FE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="about row">
+        <div class="content-title">
+          <p>Видео наших работ</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="about-item">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MiyvPRK2FE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="about-item">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6MiyvPRK2FE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-btn">
+          <button type="submit" class="register">Убедили! Записаться</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /about -->
+
+<!-- map -->
+<div class="map" id="map"></div>
+<!-- /map -->
+
+<!-- footer -->
+   <div class="container-fluid footer">
+
+       <div class="container">
+         <div class="row row-footer " id="contacts">
+
+            <div class="footer__item__wrapper col-lg-4 col-md-6">
+              <div class="footer__item">
+                <div class="footer__title">
+                  <p>Ремонтный цех №1</p>
+                </div>
+                <div class="footer__contacts">
+                  <p>
+                    <i class="fa fa-map-marker footer-ico"></i>
+                    <span>адрес:</span> Липецк, ул. К.Либкнехта, 19</p>
+                  <p>
+                    <i class="fa fa-clock-o footer-ico"></i>
+                    <span>время работы</span>  9:00 — 19:00 (без выходных)</p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел. (беспл.):</span> <a href="tel:88002007464"> +7 (800) 200-74-64</a></p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел.:</span> <a href="tel:+74742392995">+7 (4742) 39-29-95</a>,
+                    <p><a href="tel:+74742506400">+7 (4742) 50-64-00</a></p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer__item__wrapper col-lg-4 col-md-6">
+              <div class="footer__item">
+                <div class="footer__title">
+                  <p>Ремонтный цех №2</p>
+                </div>
+                <div class="footer__contacts">
+                  <p>
+                    <i class="fa fa-map-marker footer-ico"></i>
+                    <span>адрес:</span> Липецк, ул. Ушинского, 8</p>
+                  <p>
+                  <i class="fa fa-clock-o footer-ico"></i>
+                  <span>время работы</span> 9:00 — 19:00 (без выходных)</p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел. (беспл.):</span> <a href="tel:88002007464"> +7 (800) 200-74-64</a></p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел.:</span> +7 (4742) 28-62-36</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer__item__wrapper col-lg-4 col-md-12">
+              <div class="footer__item">
+                <div class="footer__title">
+                  <p>Малярно-кузовной цех</p>
+                </div>
+                <div class="footer__contacts">
+                  <p>
+                    <i class="fa fa-map-marker footer-ico"></i>
+                    <span>адрес:</span> Липецк, Трубный проезд, 6</p>
+                  <p>
+                    <i class="fa fa-clock-o footer-ico"></i>
+                    <span>время работы</span>  9:00 — 19:00 (без выходных)</p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел. (беспл.):</span> <a href="tel:88002007464"> +7 (800) 200-74-64</a></p>
+                  <p>
+                    <i class="fa fa-phone footer-ico"></i>
+                    <span>тел.:</span> <a href="tel:+74742505046"> +7 (4742) 50-50-46</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+       </div>
+     </div>
+</div>
+<!-- /footer -->
+
+<!--underground-->
+<div class="container-fluid underground">
+  <div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <p>
+            <a href="mailto:info@vek-avto48.ru">
+              <i class="fa fa-envelope footer-ico"></i>
+              <span>info@vek-avto48.ru</span>
+            </a><br>
+            <i class="fa fa-arrow-right footer-ico"></i>
+            <span>Наши новости</span>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+          <p><i class="fa fa-phone footer-ico"></i>
+            <a href="tel:88002007664">8 (800) 200 - 76 - 64</a>
+          </p>
+          <p class="underground__years">
+            © 1999-2017
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 footer__social__wrapper">
+          <p>
+            Мы в соц.сетях
+          </p>
+          <p>
+            <i class="fa fa-youtube underground-ico"></i>
+            <i class="fa fa-vk underground-ico"></i>
+            <i class="fa fa-instagram underground-ico"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/underground-->
+
+<!--popup-->
+<div class="container">
+  <div class="row">
+    <div id="parent_popup" class="parent_popup popup__none">
+      <div id="popup" class="popup popup__online">
+        <div class="form form__online" id="form1">
+          <div class="form__title">Онлайн запись</div>
+          <div class="form__wrapper">
+            <form>
+              <input type="text" name="Имя" placeholder="Введите ваше имя" required><br>
+              <input type="text" name="Телефон/E-mail" placeholder="Номер телефона / Email" required><br>
+              <select class="choice-items" name="Услуги" required>
+                <option value="Шиномонтаж">Шиномонтаж</option>
+                <option value="Замена масла">Замена масла</option>
+                <option value="Эвакуатор">Эвакуатор</option>
+                <option value="Автомойка">Автомойка</option>
+                <option value="Комп. диагностика">Комп. диагностика</option>
+                <option value="Кузовные работы">Кузовные работы</option>
+                <option value="Развал схождение">Развал схождение</option>
+                <option value="Ремонт двигателя">Ремонт двигателя</option>
+                <option value="Обслуживание кондиционеров">Обслуживание кондиционеров</option>
+                <option value="Обслуживание трансмиссии">Обслуживание трансмиссии</option>
+                <option value="Слесарные работы">Слесарные работы</option>
+                <option value="Ремонт двигателя">Ремонт двигателя</option>
+              </select><br>
+              <select class="choice-items" name="Мастер" required>
+                <option value="Любой мастер">Любой мастер</option>
+                <option value="Александр Пахомов">Александр Пахомов</option>
+                <option value="Сергей Мирилин">Сергей Мирилин</option>
+                <option value="Андрей Чижов">Андрей Чижов</option>
+                <option value="Валерий Спиваков">Валерий Спиваков</option>
+              </select><br>
+              <select class="choice-items" name="Автосервис" required>
+                <option value="Ремонтный цех №1">Ремонтный цех №1</option>
+                <option value="Ремонтный цех №2">Ремонтный цех №2</option>
+                <option value="Малярно-кузовной цех">Малярно-кузовной цех</option>
+              </select><br>
+              <input type="datetime-local" name="Дата/Время" required><br>
+              <button class="advantages__btn">Записаться</button>
+            </form>
+          </div>
+        </div>
+        <a class="popup__close" title="Закрыть">X</a></div>
+      </div>
+    </div>
+  </div>
+  <!--/popup-->
+
+  <!--popup2-->
+  <div class="container">
+    <div class="row">
+      <div id="parent_popup2" class="parent_popup popup__none">
+        <div id="popup2" class="popup popup__online">
+          <div class="form form__online" id="form2">
+            <div class="form__title">Онлайн запись</div>
+            <div class="form__wrapper">
+              <form>
+                <input type="text" name="Имя" placeholder="Введите ваше имя" required><br>
+                <input type="text" name="Телефон/E-mail" placeholder="Номер телефона / Email" required><br>
+                <input type="datetime-local" name="Дата/Время" required><br>
+                <select class="choice-items" name="Автосервис" required>
+                  <option value="Ремонтный цех №1">Ремонтный цех №1</option>
+                  <option value="Ремонтный цех №2">Ремонтный цех №2</option>
+                  <option value="Малярно-кузовной цех">Малярно-кузовной цех</option>
+                </select><br>
+                <button class="advantages__btn">Записаться</button>
+              </form>
+            </div>
+          </div>
+          <a class="popup__close" title="Закрыть">X</a></div>
+        </div>
+      </div>
+    </div>
+<!--/popup2-->
+
+<!--JAVA SCRIPT-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/nav.jquery.min.js" type="text/javascript"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.vide.js"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

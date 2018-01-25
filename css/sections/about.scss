@@ -1,0 +1,40 @@
+.container-fluid_about {
+  width: 100%;
+  text-align: center;
+}
+.about {
+    padding-bottom: 136px;
+}
+.about .content-title {
+  padding-bottom: 186px;
+}
+.about .content-title:after {
+  bottom: 36%;
+}
+  .about-btn {
+  text-align: center;
+  margin-top: 83px;
+  margin-bottom: 137px;
+	}
+  .about-btn :hover {
+    background-color: $base-red-hover;
+    color: $head-white;
+    text-decoration: none;
+  }
+  .about-btn :visited {
+    color: $head-white;
+  }
+  .about-btn :active {
+    background-color: $base-red-hover;
+    margin-top: 1px;
+  }
+.about-btn button {
+	color: #fdfcfc;
+	font-size: 18px;
+	background: $base-red;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+  padding: 18px 24px 17px;
+  min-width: 244px;
+}

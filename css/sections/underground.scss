@@ -1,0 +1,45 @@
+/*underground*/
+.underground {
+    background: $bg-footer;
+    padding-top: 34px;
+    padding-bottom: 11px; 
+    font-size: 16px;
+    border-top: 2px solid rgba(4, 4, 4, .11);
+}
+
+.underground-ico {
+    font-size: 35px;
+    padding: 2px;
+    color: $head-white;
+}
+.underground__arrow {
+    color: #000000;
+}
+.underground__years {
+  font-size: 19px;
+  line-height: 2.2;
+}
+.fa-youtube {
+  background-color: $base-red;
+  cursor: pointer;
+}
+.fa-vk {
+  background-color: #44678d;
+  cursor: pointer;
+}
+.fa-instagram {
+  background-color: #dc24d6;
+  cursor: pointer;
+}
+.fa-youtube:hover {
+  background-color: #E78D7F;
+}
+.fa-vk:hover {
+  background-color: #85ACD6;
+}
+.fa-instagram:hover {
+  background-color: #FA70F8;
+}
+.underground span {
+  margin-left: 5px;
+}

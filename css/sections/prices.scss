@@ -1,0 +1,60 @@
+/* prices */
+.prices {
+    background: url("../img/bg-prices.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom: 100px;
+  }
+  .prices .content-title {
+    padding-bottom: 60px;
+  }
+   table {
+    color: $head-white;
+    margin: 0 auto;
+    min-width: 1116px;
+    margin-top: 90px;
+  }
+  .prices tr {
+    background-color: rgba(0, 0, 0, 0.3);
+ 
+  }
+   .prices td {
+     border: 1px solid #acacac;
+   }
+  .prices th {
+    padding: 16px 50px;
+    font-size: 24px;
+    font-family: "GothaMed", Arial, Helvetica, sans-serif;
+    background-color: $base-red;
+    border: 1px solid #acacac;
+    text-align: left;
+  }
+  .prices td {
+    font-size: 18px;
+    padding: 16px 50px;
+  }
+  .items__btn {
+    text-align: center;
+  }
+  .item__btn {
+    width: 244px;
+    display: inline-block;
+    padding: 20px;
+    margin: 60px 15px;
+    color: $head-white;
+    background-color: $base-red;
+    font-family: "GothaLig", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+  }
+    .btn__hover:hover {
+      background-color: $base-red-hover;
+      color: $head-white;
+      text-decoration: none;
+    }
+    .btn__hover:visited {
+      color: $head-white;
+    }
+    .btn__hover:active {
+      background-color: $base-red-hover;
+    }
+  

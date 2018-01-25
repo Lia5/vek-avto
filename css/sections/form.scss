@@ -1,0 +1,46 @@
+/*form*/
+  .form {
+      font-family: "Ubuntu-Regular", Arial, Helvetica, sans-serif;
+      margin: 25px auto;
+      padding: 35px 48px;
+      border: 2px solid #000000;
+      max-width: 445px;
+  }
+  .form__title {
+    font-size: 24px;
+    margin-bottom: 14px;
+    text-align: center;
+ 
+  }
+  .form input {
+      margin-top: 14px;
+      margin-bottom: 14px;
+      width: 100%; 
+      padding: 14px;
+      
+  }
+  .advantages input {
+      background: transparent;
+      border: 1px solid #000;
+
+  }
+  .form button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 30px;
+    color: $head-white;
+    background-color: $base-red;
+    border: none;
+    min-width: 161px;
+  }
+
+  /*popup form*/
+  .form select {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 100%; 
+    padding: 14px;
+}
+.form__online {
+  margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+
+$head-white: #ffffff;
+$bg-footer: #eceded;
+$base-red: #a64540;
+$base-red-hover: #DA4F4A;
+$base-black: #040404;
+
+// laout
+@import "settings/bootstrap.scss";
+@import "settings/setting.scss";
+@import "settings/animate.scss";
+@import "settings/font-awesome.scss";
+@import "settings/fonts.scss";
+@import "sections/flaticon-service.scss";
+@import "sections/flaticon-business.scss";
+@import "sections/header.scss";
+@import "sections/video.scss";
+@import "sections/modal.scss";
+@import "sections/services.scss";
+@import "sections/prices.scss";
+@import "sections/advantages.scss";
+@import "sections/form.scss";
+@import "sections/stuff.scss";
+@import "sections/some.scss";
+@import "sections/about.scss";
+@import "sections/footer.scss";
+@import "sections/underground.scss";
+@import "sections/timer.scss";
+@import "sections/adaptive.scss";
+
+

@@ -1,0 +1,121 @@
+/*services*/
+.services {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 112px;
+    font-family: "GothaLig", Arial, Helvetica, sans-serif;
+ 
+  }
+  .services .content-title {
+    padding-bottom: 155px;
+  }
+  .services .content-title:after {
+    bottom: 36%;
+  }
+  // .block__title {
+  //   font-family: "GothaMed", Arial, Helvetica, sans-serif;
+  //   font-size: 36px;
+  //   margin-top: 100px;
+  //   margin-bottom: 140px;
+  //   text-align: center;
+  // }
+ .service-item {
+  position: relative;
+   padding: 0;
+   width: 264px;
+   height: 390px;
+   margin: 14px;
+ }
+ .service-item a {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: block;
+   padding-top: 89px;
+   padding-bottom: 89px;
+   color: $head-white;
+   font-family: "GothaLig", Arial, Helvetica, sans-serif;
+ 
+ }
+
+ .service-item1 a,
+ .service-item2 a,
+ .service-item3 a,
+ .service-item4 a {
+   padding-top: 110px;
+   padding-bottom: 110px;
+ }
+ .service-item a:hover {
+  background: rgba(166, 69, 64, 0.5); /*это цвет a64540 с прозрачностью*/
+  text-decoration: none;
+ }
+ .services-ico {
+  display: inline-block;
+  transition: all .2s ease-in;
+  transform: scale(1); 
+ }
+  .service-item a:hover .services-ico {
+    transition: all .2s ease-in;
+    transform: scale(1.2);
+    // transform: rotate(360deg);
+    // transition: all 1s;
+  }
+ .service-item1 {
+   background: url("../img//bg-service1.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item2 {
+   background: url("../img//bg-service2.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item3 {
+   background: url("../img//bg-service3.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item4 {
+   background: url("../img//bg-service4.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item5 {
+   background: url("../img//bg-service5.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item6 {
+   background: url("../img//bg-service6.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item7 {
+   background: url("../img//bg-service7.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item8 {
+   background: url("../img//bg-service8.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item9 {
+   background: url("../img//bg-service9.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item10 {
+   background: url("../img//bg-service10.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item11 {
+   background: url("../img//bg-service11.jpg") no-repeat;
+   background-size: cover;
+ }
+ .service-item12 {
+   background: url("../img//bg-service12.jpg") no-repeat;
+   background-size: cover;
+ }
+ 
+ .service-item-overlay {
+   height: 100%;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.1);
+ }
+  .services .fi {
+    font-size: 90px;
+  }

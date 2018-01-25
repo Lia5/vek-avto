@@ -1,0 +1,32 @@
+.footer {
+	background: $bg-footer;
+	padding: 70px 0;
+	width: 100%;
+}
+.footer__item {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+.footer__title {
+	margin-bottom: 25px;
+}
+.footer__contacts {
+	font-weight: normal;
+	& span {
+		color: $base-red;
+		text-align: right;
+	}
+}
+.footer-ico {
+	color: $base-red;
+	font-size: 16px;
+}
+
+#map {
+	width: 100%;
+	height: 746px;
+}
+.row-footer {
+	margin-right: 0;
+}

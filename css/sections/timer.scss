@@ -1,0 +1,22 @@
+/* Можно стилизовать элементы по отдельности как нравится */
+.timer { 
+  font-size: 18pt; 
+  font-weight: bold;
+  text-align: center;
+}
+.timer__title {
+  font-size: 14px;
+  max-width: 445px;
+  background-color: #a5a8a5;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: none;
+}
+/*
+.timer #days { color: blue; }
+.timer #hours { color: red; }
+.timer #minutes { color: green; }
+.timer #seconds { color: orange; }
+*/
